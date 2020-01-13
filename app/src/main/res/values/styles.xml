@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="CustomCircleView">
+        <!-- 半径 -->
+        <attr name="radius" format="integer"/>
+        <!-- 边的颜色 -->
+        <attr name="stroke_color" format="color"/>
+        <!-- 边的宽度 -->
+        <attr name="stroke_width" format="dimension"/>
+        <!-- 填充的颜色 -->
+        <attr name="fill_color" format="color"/>
+        <!-- 文本 -->
+        <attr name="text" format="string"/>
+        <!-- 文本大小 -->
+        <attr name="text_size" format="integer"/>
+        <!-- 文本的颜色 -->
+        <attr name="text_color" format="color"/>
+    </declare-styleable>
+
+</resources>
